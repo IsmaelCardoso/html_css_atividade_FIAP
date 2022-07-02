@@ -1,0 +1,74 @@
+* {
+  font-family: "Montserrat";
+  /* font-family: "Ubuntu"; */
+}
+
+.container-fluid {
+  background-color: "E5E5E5";
+
+  height: 100vh;
+
+  display: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div .logo {
+  margin-top: 3.5rem;
+
+  text-align: center;
+
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+div .form-label {
+  margin-bottom: 0;
+}
+
+div .spacing24 {
+  margin-top: 1.625rem;
+}
+
+div .btn-orange {
+  width: 100%;
+  height: 2.5rem;
+
+  background-color: #ff6600;
+
+  box-shadow: 0px 12px 24px rgba(231, 97, 8, 0.2);
+  border-radius: 100px;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+div .btn-orange:hover {
+  background-color: #fe7500;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+div .div-dashed {
+  border-bottom: 2px dashed #cdd3dc;
+}
+
+div .forgot-password {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+a .forgot-password {
+  font-family: "Montserrat";
+  font-size: 0.875;
+  color: #0099ff;
+}

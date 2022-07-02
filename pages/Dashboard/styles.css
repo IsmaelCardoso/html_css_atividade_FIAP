@@ -1,0 +1,61 @@
+* {
+  font-family: "Montserrat";
+  /* font-family: "Ubuntu"; */
+}
+
+.container-fluid {
+  background-color: "E5E5E5";
+  width: 100vw;
+  height: 100vh;
+
+  display: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div .spacing24 {
+  margin-top: 1.625rem;
+}
+
+.buttonContainer {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subTitle {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+
+  text-transform: uppercase;
+}
+
+div .btn-blue {
+  width: 100%;
+  height: 2.5rem;
+
+  background: #0099ff;
+  box-shadow: 0px 12px 24px rgba(0, 115, 191, 0.12);
+
+  border-radius: 100px;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+div .btn-blue:hover {
+  background-color: #0099f1;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
